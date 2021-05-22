@@ -101,7 +101,8 @@
   transition: 0.3s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color: #803bec;
+  background-color: transparent;
+  opacity: 0.1;
 }
 .next {
   right: 0;
@@ -111,10 +112,12 @@
 .prev:hover{
     background-color:white;
     color: #803bec;
+    opacity: 1;
 }
 .next:hover{
     background-color:white;
     color: #803bec;
+    opacity: 1;
 }
 
 
